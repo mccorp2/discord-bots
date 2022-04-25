@@ -1,7 +1,7 @@
 import discord
 from discord.ext import commands
 
-token = 'NDUwNTAxMTcwNjc1NDQ5ODU2.Wwt36A.KYnyTQWE2OIknZUz8fIq3oGucHg'
+token = ''
 intents = discord.Intents.default()
 intents.members = True
 bot = commands.Bot(command_prefix = '?', description = "This is a Helper Bot", intents = intents)
